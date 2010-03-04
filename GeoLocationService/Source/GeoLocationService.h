@@ -19,16 +19,26 @@
 #import <CoreLocation/CoreLocation.h>
 
 #pragma mark -
+/**
+ * Receiver for the events from the GeoLocationService.
+ */
 @protocol GeoLocationServiceDelegate <NSObject>
 	@required
+	/** New GPS location. */
 	-(void)locationUpdate:(CLLocation *)newLocation;
 @optional
+	/** Error while acquiring location. */
 	-(void)locationError:(NSError*)error;
+	/** Location serice is not available. */
 	-(void)locationServiceDisabled;
 @end
 
 
 #pragma mark -
+/**
+ * Geo location service singleton.
+ * Provides access to geographical location details.
+ */
 @interface GeoLocationService : NSObject <CLLocationManagerDelegate> {
 	CLLocationManager			*_locationManager;
 	CLLocation					*_currentLocation;
@@ -39,9 +49,13 @@
 	BOOL						_locationChanged;
 	
 	@public
+	//! Fake location. Use it for debugging purposes only.
 	CLLocation					*fakeLocation;	
+	//! Current GPS location or nil if unknown.
 	CLLocation					*currentLocation;
+	//! Desired accuracy (see: CLLocationManager.desiredAccuracy)
 	CLLocationAccuracy			desiredAccuracy;
+	//! Distance filter (see: CLLocationManager.distanceFilter)
 	CLLocationDistance			distanceFilter;
 }
 
@@ -50,15 +64,21 @@
 	@property (nonatomic, retain)		NSDate				*_lastUpdate;
 	@property (nonatomic, retain)		NSOperationQueue	*_operationQueue;
 	@property (nonatomic, retain)		NSMutableArray		*_pendingDelegates;
-	//
 	@property (nonatomic, retain)		CLLocation			*fakeLocation;
 	@property (nonatomic, readonly)		CLLocation			*currentLocation;
 	@property							CLLocationAccuracy	desiredAccuracy;
 	@property							CLLocationDistance	distanceFilter;
 
-
+	/** Provides instance of the service. */
 	+(GeoLocationService *) sharedInstance;
+
+	/** 
+	 * Ask the service for GPS location. The callback will be called only once as soon as location is known.
+	 * Useful if you want to know the current position (e.g. sending location to Twitter) not recording route.
+	 */
 	-(void)fetch:(id<GeoLocationServiceDelegate>) callback;
+
+	/** Is the service enabled? */
 	-(BOOL)serviceEnabled;
 
 @end
