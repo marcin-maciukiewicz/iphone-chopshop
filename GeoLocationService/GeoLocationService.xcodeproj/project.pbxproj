@@ -50,7 +50,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8DC2EF4F0486A6940098B216 /* GeoLocationService */;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
 			remoteInfo = GeoLocationService;
 		};
 /* End PBXContainerItemProxy section */
@@ -463,7 +463,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
 				COPY_PHASE_STRIP = NO;
 				EXPORTED_SYMBOLS_FILE = "";
 				GCC_DYNAMIC_NO_PIC = NO;
