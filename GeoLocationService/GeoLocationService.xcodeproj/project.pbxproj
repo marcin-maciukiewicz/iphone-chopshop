@@ -11,7 +11,7 @@
 			isa = PBXAggregateTarget;
 			buildConfigurationList = 32FC9D93113F888A001D5F50 /* Build configuration list for PBXAggregateTarget "Disk Image" */;
 			buildPhases = (
-				32FC9D8D113F8863001D5F50 /* ShellScript */,
+				32FC9D8D113F8863001D5F50 /* Build Documentation */,
 			);
 			dependencies = (
 				32FC9D92113F886C001D5F50 /* PBXTargetDependency */,
@@ -310,13 +310,14 @@
 			shellPath = /bin/sh;
 			shellScript = "FRAMEWORK=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\n\nlipo \\\n\t\"${BUILD_DIR}/${CONFIGURATION}-iphoneos/libGeoLocationService-iPhone.a\" \\\n\t\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/libGeoLocationService-iPhoneSimulator.a\" \\\n\t-create -output \"${FRAMEWORK}/Versions/Current/${PRODUCT_NAME}\"\n\ncd \"${FRAMEWORK}\" && ln -sf \"Versions/Current/${PRODUCT_NAME}\" ./";
 		};
-		32FC9D8D113F8863001D5F50 /* ShellScript */ = {
+		32FC9D8D113F8863001D5F50 /* Build Documentation */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = "Build Documentation";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
