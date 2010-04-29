@@ -119,7 +119,7 @@
 		CGSize preferredSize=[subview preferredSize];
 		subview.frame=CGRectMake(0, verticalOffset, preferredSize.width, preferredSize.height);
 		[(UIView*)subview setNeedsLayout];
-		[(UIView*)subview layoutIfNeeded];
+		//[(UIView*)subview layoutIfNeeded];
 		verticalOffset+=preferredSize.height+spacing.height;
 	}
 }
@@ -147,7 +147,7 @@
 		CGSize preferredSize=[subview preferredSize];
 		subview.frame=CGRectMake(0, verticalOffset, preferredSize.width, preferredSize.height);
 		[(UIView*)subview setNeedsLayout];
-		[(UIView*)subview layoutIfNeeded];
+		//[(UIView*)subview layoutIfNeeded];
 		verticalOffset+=preferredSize.height+spacing.height;
 	}
 }
@@ -171,7 +171,7 @@
 		CGSize preferredSize=[subview preferredSize];
 		subview.frame=CGRectMake(0, verticalOffset, preferredSize.width, preferredSize.height);
 		[(UIView*)subview setNeedsLayout];
-		[(UIView*)subview layoutIfNeeded];
+		//[(UIView*)subview layoutIfNeeded];
 		verticalOffset+=preferredSize.height+spacing.height;
 	}	
 }
@@ -185,7 +185,7 @@
 		CGRect currentFrame=subview.frame;
 		subview.frame=CGRectMake(horizontalOffset, currentFrame.origin.y, currentFrame.size.width, currentFrame.size.height);
 		[(UIView*)subview setNeedsLayout];
-		[(UIView*)subview layoutIfNeeded];
+		//[(UIView*)subview layoutIfNeeded];
 	}
 }
 
@@ -196,7 +196,7 @@
 		CGFloat horizontalOffset=floor((viewWidth-currentFrame.size.width)/2+padding.left);
 		subview.frame=CGRectMake(horizontalOffset, currentFrame.origin.y, currentFrame.size.width, currentFrame.size.height);
 		[(UIView*)subview setNeedsLayout];
-		[(UIView*)subview layoutIfNeeded];
+		//[(UIView*)subview layoutIfNeeded];
 	}
 }
 
@@ -207,7 +207,7 @@
 		CGFloat horizontalOffset=viewWidth-currentFrame.size.width-padding.right;
 		subview.frame=CGRectMake(horizontalOffset, currentFrame.origin.y, currentFrame.size.width, currentFrame.size.height);
 		[(UIView*)subview setNeedsLayout];
-		[(UIView*)subview layoutIfNeeded];
+		//[(UIView*)subview layoutIfNeeded];
 	}
 }
 

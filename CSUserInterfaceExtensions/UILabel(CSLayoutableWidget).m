@@ -9,10 +9,10 @@
 #import "UILabel(CSLayoutableWidget).h"
 
 
-@implementation UILabel(LayoutableWidget)
+@implementation UILabel(CSLayoutableWidget)
 
 -(CGSize)preferredSize {
-	CGSize result=[self.text sizeWithFont:self.font forWidth:self.frame.size.width lineBreakMode:self.lineBreakMode];
+	CGSize result=[self.text sizeWithFont:self.font constrainedToSize:CGSizeMake(self.frame.size.width, CGFLOAT_MAX) lineBreakMode:self.lineBreakMode];
 	return result;
 }
 

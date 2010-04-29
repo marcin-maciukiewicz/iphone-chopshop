@@ -9,7 +9,7 @@
 #import "UITextField(CSLayoutableWidget).h"
 
 
-@implementation UITextField(LayoutableWidget)
+@implementation UITextField(CSLayoutableWidget)
 
 -(CGSize)preferredSize {
 	CGSize result;

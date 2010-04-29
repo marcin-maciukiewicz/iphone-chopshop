@@ -8,7 +8,7 @@
 
 #import "UIImageView(CSLayoutableWidget).h"
 
-@implementation UIImageView(LayoutableWidget)
+@implementation UIImageView(CSLayoutableWidget)
 
 -(CGSize)preferredSize {
 	CGSize result=self.image.size;
