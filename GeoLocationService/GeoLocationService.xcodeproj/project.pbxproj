@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
+		32CC7AD1116A13770043D84B /* DiskImage */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 32CC7ADA116A13970043D84B /* Build configuration list for PBXAggregateTarget "DiskImage" */;
+			buildPhases = (
+				32CC7AD0116A13770043D84B /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = DiskImage;
+			productName = DiskImage;
+		};
 		32FC9D8E113F8863001D5F50 /* Disk Image */ = {
 			isa = PBXAggregateTarget;
 			buildConfigurationList = 32FC9D93113F888A001D5F50 /* Build configuration list for PBXAggregateTarget "Disk Image" */;
@@ -54,6 +65,18 @@
 			remoteInfo = GeoLocationService;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		32CA2803116D2F9D00FF2B88 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
@@ -251,6 +274,7 @@
 				8DC2EF540486A6940098B216 /* Sources */,
 				8DC2EF560486A6940098B216 /* Frameworks */,
 				32EBEE0D113F775800074B6D /* Lipo Binary */,
+				32CA2803116D2F9D00FF2B88 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -281,6 +305,7 @@
 				8DC2EF4F0486A6940098B216 /* GeoLocationService */,
 				32EBEDC0113F734A00074B6D /* GeoLocationService-iPhone */,
 				32EBEE20113F787900074B6D /* GeoLocationService-iPhoneSimulator */,
+				32CC7AD1116A13770043D84B /* DiskImage */,
 			);
 		};
 /* End PBXProject section */
@@ -296,6 +321,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		32CC7AD0116A13770043D84B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\nexit 0";
+		};
 		32EBEE0D113F775800074B6D /* Lipo Binary */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -460,6 +498,27 @@
 			};
 			name = Release;
 		};
+		32CC7AD4116A13790043D84B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = DiskImage;
+			};
+			name = Debug;
+		};
+		32CC7AD5116A13790043D84B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = DiskImage;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
 		32EBEDC2113F734B00074B6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -565,6 +624,15 @@
 			buildConfigurations = (
 				1DEB91B208733DA50010E9CD /* Debug */,
 				1DEB91B308733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32CC7ADA116A13970043D84B /* Build configuration list for PBXAggregateTarget "DiskImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32CC7AD4116A13790043D84B /* Debug */,
+				32CC7AD5116A13790043D84B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

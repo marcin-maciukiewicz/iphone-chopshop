@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "CSLayoutableWidget.h"
+#import <CSUserInterfaceExtensions/CSLayoutableWidget.h>
 
 @interface UIImageView(CSLayoutableWidget)  <CSLayoutableWidget>
 

@@ -100,7 +100,7 @@ GTMOBJECT_SINGLETON_BOILERPLATE(GeoLocationService, sharedInstance);
 		_locationChanged = NO;
 	
 #ifdef __i386__
-	// Don't care about simulator. It alsways points to the Apple HQ
+	// Don't care about simulator. It always points to the Apple HQ
 	if (howRecent < 5.0) {
 #else
 	// case 1: GPS sends at start 3 fast updates. Only the last one is accurate.
@@ -115,7 +115,6 @@ GTMOBJECT_SINGLETON_BOILERPLATE(GeoLocationService, sharedInstance);
 			self._currentLocation=newLocation;			
 		}
 
-		[_currentLocation retain];
 		// flush all the waiting delegates
 		for(id<GeoLocationServiceDelegate> delegate in _pendingDelegates) {
 			@try {

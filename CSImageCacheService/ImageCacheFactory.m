@@ -66,7 +66,7 @@ GTMOBJECT_SINGLETON_BOILERPLATE(ImageCacheFactory, sharedImageCache)
 	[super dealloc];
 }
 
-+(UIImage*)bundleImageWithFileName:(NSString*)bundleImageFileName {
++(UIImage*)bundleImageNamed:(NSString*)bundleImageFileName {
 	ImageCache *bundleImagesCache=[[ImageCacheFactory sharedImageCache] getCacheWithDomainId:ImageCacheDomainIdBundle];
 	UIImage *result=[bundleImagesCache imageForKey:bundleImageFileName];
 	return result;

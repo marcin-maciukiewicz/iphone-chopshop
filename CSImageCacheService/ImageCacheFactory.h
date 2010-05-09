@@ -34,6 +34,6 @@ enum {
 -(void)removeAllImagesInMemory;
 -(void)didReceiveMemoryWarning;
 
-+(UIImage*)bundleImageWithFileName:(NSString*)bundleImageFileName;
++(UIImage*)bundleImageNamed:(NSString*)bundleImageFileName;
 
 @end

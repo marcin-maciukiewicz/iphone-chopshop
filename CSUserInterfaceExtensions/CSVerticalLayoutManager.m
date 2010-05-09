@@ -16,6 +16,7 @@
 	-(void)layoutSubviewsAlignHorizontalCenter;
 	-(void)layoutSubviewsAlignRight;
 	-(NSArray*)visibleSubviews;
+	-(CGSize)getPreferredSize:(UIView*)aView withMaxSize:(CGSize)maxSize;
 @end
 
 @implementation CSVerticalLayoutManager
@@ -56,7 +57,7 @@
 	[super dealloc];
 }
 
--(void)addSubview:(id<CSLayoutableWidget>)subview {
+-(void)addSubview:(UIView*)subview {
 	[_subviews addObject:subview];
 	[_visibleSubviews release];
 	self._visibleSubviews=nil;
@@ -110,13 +111,27 @@
 	return result;
 }
 
+-(CGSize)getPreferredSize:(UIView*)aView withMaxSize:(CGSize)maxSize {
+	CGSize result;
+	BOOL conformsToTheProtocol=[aView conformsToProtocol:NSProtocolFromString(@"CSLayoutableWidget")];
+	if(conformsToTheProtocol){
+		aView.frame=CGRectMake(0, 0, maxSize.width, maxSize.height);
+		id<CSLayoutableWidget> layoutableWidget=(id<CSLayoutableWidget>)aView;
+		result=[layoutableWidget preferredSize];
+	}else {
+		result=aView.frame.size;
+	}
+	return result;
+}
+
 #pragma mark -
 #pragma mark Vertical align
 -(void)layoutSubviewsAlignTop {
 	CGFloat verticalOffset=padding.top;
-	
-	for (id<CSLayoutableWidget> subview in [self visibleSubviews]) {
-		CGSize preferredSize=[subview preferredSize];
+	CGSize parentViewSize=self._view.frame.size;
+	for (UIView *subview in [self visibleSubviews]) {
+		CGSize maxSize=CGSizeMake(parentViewSize.width-padding.left-padding.right, parentViewSize.height-verticalOffset-padding.bottom);
+		CGSize preferredSize=[self getPreferredSize:subview withMaxSize:maxSize];
 		subview.frame=CGRectMake(0, verticalOffset, preferredSize.width, preferredSize.height);
 		[(UIView*)subview setNeedsLayout];
 		//[(UIView*)subview layoutIfNeeded];

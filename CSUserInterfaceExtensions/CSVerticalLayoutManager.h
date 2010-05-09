@@ -53,7 +53,7 @@ CG_INLINE Distance DistanceMake(CGFloat top, CGFloat right, CGFloat bottom, CGFl
 @property					BOOL			ignoreHidden;
 
 -(id)initWithView:(UIView*)view;
--(void)addSubview:(id<CSLayoutableWidget>)subview;
+-(void)addSubview:(UIView*)subview;
 -(void)layoutSubviews;
 
 @end
