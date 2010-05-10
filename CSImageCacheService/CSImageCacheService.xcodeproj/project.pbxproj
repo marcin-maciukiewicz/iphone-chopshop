@@ -22,42 +22,40 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		32FCD48111848ACA00CD4CA2 /* AbstractImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47211848AC900CD4CA2 /* AbstractImageCacheDomain.h */; };
-		32FCD48211848ACA00CD4CA2 /* AbstractImageCacheDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCD47311848AC900CD4CA2 /* AbstractImageCacheDomain.m */; };
-		32FCD48311848ACA00CD4CA2 /* AvatarImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47411848AC900CD4CA2 /* AvatarImageCacheDomain.h */; };
-		32FCD48511848ACA00CD4CA2 /* BundleImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47611848ACA00CD4CA2 /* BundleImageCacheDomain.h */; };
-		32FCD48611848ACA00CD4CA2 /* BundleImageCacheDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCD47711848ACA00CD4CA2 /* BundleImageCacheDomain.m */; };
-		32FCD48711848ACA00CD4CA2 /* GeneralImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47811848ACA00CD4CA2 /* GeneralImageCacheDomain.h */; };
-		32FCD48811848ACA00CD4CA2 /* GeneralImageCacheDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCD47911848ACA00CD4CA2 /* GeneralImageCacheDomain.m */; };
+		32FCD48111848ACA00CD4CA2 /* CSAbstractImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47211848AC900CD4CA2 /* CSAbstractImageCacheDomain.h */; };
+		32FCD48211848ACA00CD4CA2 /* CSAbstractImageCacheDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCD47311848AC900CD4CA2 /* CSAbstractImageCacheDomain.m */; };
+		32FCD48511848ACA00CD4CA2 /* CSBundleImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47611848ACA00CD4CA2 /* CSBundleImageCacheDomain.h */; };
+		32FCD48611848ACA00CD4CA2 /* CSBundleImageCacheDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCD47711848ACA00CD4CA2 /* CSBundleImageCacheDomain.m */; };
+		32FCD48711848ACA00CD4CA2 /* CSGeneralImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47811848ACA00CD4CA2 /* CSGeneralImageCacheDomain.h */; };
+		32FCD48811848ACA00CD4CA2 /* CSGeneralImageCacheDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCD47911848ACA00CD4CA2 /* CSGeneralImageCacheDomain.m */; };
 		32FCD48911848ACA00CD4CA2 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47A11848ACA00CD4CA2 /* GTMDefines.h */; };
 		32FCD48A11848ACA00CD4CA2 /* GTMObjectSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47B11848ACA00CD4CA2 /* GTMObjectSingleton.h */; };
-		32FCD48B11848ACA00CD4CA2 /* ImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47C11848ACA00CD4CA2 /* ImageCache.h */; };
-		32FCD48C11848ACA00CD4CA2 /* ImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCD47D11848ACA00CD4CA2 /* ImageCache.m */; };
-		32FCD48D11848ACA00CD4CA2 /* ImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47E11848ACA00CD4CA2 /* ImageCacheDomain.h */; };
-		32FCD48E11848ACA00CD4CA2 /* ImageCacheFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47F11848ACA00CD4CA2 /* ImageCacheFactory.h */; };
-		32FCD48F11848ACA00CD4CA2 /* ImageCacheFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCD48011848ACA00CD4CA2 /* ImageCacheFactory.m */; };
-		32FCD49011848ACA00CD4CA2 /* AbstractImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47211848AC900CD4CA2 /* AbstractImageCacheDomain.h */; };
-		32FCD49111848ACA00CD4CA2 /* AbstractImageCacheDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCD47311848AC900CD4CA2 /* AbstractImageCacheDomain.m */; };
-		32FCD49211848ACA00CD4CA2 /* AvatarImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47411848AC900CD4CA2 /* AvatarImageCacheDomain.h */; };
-		32FCD49411848ACA00CD4CA2 /* BundleImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47611848ACA00CD4CA2 /* BundleImageCacheDomain.h */; };
-		32FCD49511848ACA00CD4CA2 /* BundleImageCacheDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCD47711848ACA00CD4CA2 /* BundleImageCacheDomain.m */; };
-		32FCD49611848ACA00CD4CA2 /* GeneralImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47811848ACA00CD4CA2 /* GeneralImageCacheDomain.h */; };
-		32FCD49711848ACA00CD4CA2 /* GeneralImageCacheDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCD47911848ACA00CD4CA2 /* GeneralImageCacheDomain.m */; };
+		32FCD48B11848ACA00CD4CA2 /* CSImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47C11848ACA00CD4CA2 /* CSImageCache.h */; };
+		32FCD48C11848ACA00CD4CA2 /* CSImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCD47D11848ACA00CD4CA2 /* CSImageCache.m */; };
+		32FCD48D11848ACA00CD4CA2 /* CSImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47E11848ACA00CD4CA2 /* CSImageCacheDomain.h */; };
+		32FCD48E11848ACA00CD4CA2 /* CSImageCacheFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47F11848ACA00CD4CA2 /* CSImageCacheFactory.h */; };
+		32FCD48F11848ACA00CD4CA2 /* CSImageCacheFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCD48011848ACA00CD4CA2 /* CSImageCacheFactory.m */; };
+		32FCD49011848ACA00CD4CA2 /* CSAbstractImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47211848AC900CD4CA2 /* CSAbstractImageCacheDomain.h */; };
+		32FCD49111848ACA00CD4CA2 /* CSAbstractImageCacheDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCD47311848AC900CD4CA2 /* CSAbstractImageCacheDomain.m */; };
+		32FCD49411848ACA00CD4CA2 /* CSBundleImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47611848ACA00CD4CA2 /* CSBundleImageCacheDomain.h */; };
+		32FCD49511848ACA00CD4CA2 /* CSBundleImageCacheDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCD47711848ACA00CD4CA2 /* CSBundleImageCacheDomain.m */; };
+		32FCD49611848ACA00CD4CA2 /* CSGeneralImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47811848ACA00CD4CA2 /* CSGeneralImageCacheDomain.h */; };
+		32FCD49711848ACA00CD4CA2 /* CSGeneralImageCacheDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCD47911848ACA00CD4CA2 /* CSGeneralImageCacheDomain.m */; };
 		32FCD49811848ACA00CD4CA2 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47A11848ACA00CD4CA2 /* GTMDefines.h */; };
 		32FCD49911848ACA00CD4CA2 /* GTMObjectSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47B11848ACA00CD4CA2 /* GTMObjectSingleton.h */; };
-		32FCD49A11848ACA00CD4CA2 /* ImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47C11848ACA00CD4CA2 /* ImageCache.h */; };
-		32FCD49B11848ACA00CD4CA2 /* ImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCD47D11848ACA00CD4CA2 /* ImageCache.m */; };
-		32FCD49C11848ACA00CD4CA2 /* ImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47E11848ACA00CD4CA2 /* ImageCacheDomain.h */; };
-		32FCD49D11848ACA00CD4CA2 /* ImageCacheFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47F11848ACA00CD4CA2 /* ImageCacheFactory.h */; };
-		32FCD49E11848ACA00CD4CA2 /* ImageCacheFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCD48011848ACA00CD4CA2 /* ImageCacheFactory.m */; };
-		32FCD49F11848ADB00CD4CA2 /* AbstractImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47211848AC900CD4CA2 /* AbstractImageCacheDomain.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32FCD4A311848ADB00CD4CA2 /* ImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47C11848ACA00CD4CA2 /* ImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32FCD4A411848ADB00CD4CA2 /* ImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47E11848ACA00CD4CA2 /* ImageCacheDomain.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32FCD4A511848ADB00CD4CA2 /* ImageCacheFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47F11848ACA00CD4CA2 /* ImageCacheFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FCD49A11848ACA00CD4CA2 /* CSImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47C11848ACA00CD4CA2 /* CSImageCache.h */; };
+		32FCD49B11848ACA00CD4CA2 /* CSImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCD47D11848ACA00CD4CA2 /* CSImageCache.m */; };
+		32FCD49C11848ACA00CD4CA2 /* CSImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47E11848ACA00CD4CA2 /* CSImageCacheDomain.h */; };
+		32FCD49D11848ACA00CD4CA2 /* CSImageCacheFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47F11848ACA00CD4CA2 /* CSImageCacheFactory.h */; };
+		32FCD49E11848ACA00CD4CA2 /* CSImageCacheFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCD48011848ACA00CD4CA2 /* CSImageCacheFactory.m */; };
+		32FCD49F11848ADB00CD4CA2 /* CSAbstractImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47211848AC900CD4CA2 /* CSAbstractImageCacheDomain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FCD4A311848ADB00CD4CA2 /* CSImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47C11848ACA00CD4CA2 /* CSImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FCD4A411848ADB00CD4CA2 /* CSImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47E11848ACA00CD4CA2 /* CSImageCacheDomain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FCD4A511848ADB00CD4CA2 /* CSImageCacheFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47F11848ACA00CD4CA2 /* CSImageCacheFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32FCD74C1184900600CD4CA2 /* CSImageCacheService.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD74B1184900600CD4CA2 /* CSImageCacheService.h */; };
 		32FCD74D1184900600CD4CA2 /* CSImageCacheService.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD74B1184900600CD4CA2 /* CSImageCacheService.h */; };
-		32FCD74E118490A700CD4CA2 /* BundleImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47611848ACA00CD4CA2 /* BundleImageCacheDomain.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32FCD74F118490A700CD4CA2 /* GeneralImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47811848ACA00CD4CA2 /* GeneralImageCacheDomain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FCD74E118490A700CD4CA2 /* CSBundleImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47611848ACA00CD4CA2 /* CSBundleImageCacheDomain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FCD74F118490A700CD4CA2 /* CSGeneralImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47811848ACA00CD4CA2 /* CSGeneralImageCacheDomain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32FCD750118490C100CD4CA2 /* CSImageCacheService.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD74B1184900600CD4CA2 /* CSImageCacheService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
 		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
@@ -95,21 +93,19 @@
 		32DBCF5E0370ADEE00C91783 /* CSImageCacheService_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSImageCacheService_Prefix.pch; sourceTree = "<group>"; };
 		32FCD46211848A6900CD4CA2 /* libCSImageCacheService-iPhone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libCSImageCacheService-iPhone.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FCD46911848A7500CD4CA2 /* libCSImageCacheService-iPhoneSimulator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libCSImageCacheService-iPhoneSimulator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		32FCD47211848AC900CD4CA2 /* AbstractImageCacheDomain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractImageCacheDomain.h; sourceTree = "<group>"; };
-		32FCD47311848AC900CD4CA2 /* AbstractImageCacheDomain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractImageCacheDomain.m; sourceTree = "<group>"; };
-		32FCD47411848AC900CD4CA2 /* AvatarImageCacheDomain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvatarImageCacheDomain.h; sourceTree = "<group>"; };
-		32FCD47511848AC900CD4CA2 /* AvatarImageCacheDomain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvatarImageCacheDomain.m; sourceTree = "<group>"; };
-		32FCD47611848ACA00CD4CA2 /* BundleImageCacheDomain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BundleImageCacheDomain.h; sourceTree = "<group>"; };
-		32FCD47711848ACA00CD4CA2 /* BundleImageCacheDomain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BundleImageCacheDomain.m; sourceTree = "<group>"; };
-		32FCD47811848ACA00CD4CA2 /* GeneralImageCacheDomain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralImageCacheDomain.h; sourceTree = "<group>"; };
-		32FCD47911848ACA00CD4CA2 /* GeneralImageCacheDomain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralImageCacheDomain.m; sourceTree = "<group>"; };
+		32FCD47211848AC900CD4CA2 /* CSAbstractImageCacheDomain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAbstractImageCacheDomain.h; sourceTree = "<group>"; };
+		32FCD47311848AC900CD4CA2 /* CSAbstractImageCacheDomain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAbstractImageCacheDomain.m; sourceTree = "<group>"; };
+		32FCD47611848ACA00CD4CA2 /* CSBundleImageCacheDomain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSBundleImageCacheDomain.h; sourceTree = "<group>"; };
+		32FCD47711848ACA00CD4CA2 /* CSBundleImageCacheDomain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSBundleImageCacheDomain.m; sourceTree = "<group>"; };
+		32FCD47811848ACA00CD4CA2 /* CSGeneralImageCacheDomain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSGeneralImageCacheDomain.h; sourceTree = "<group>"; };
+		32FCD47911848ACA00CD4CA2 /* CSGeneralImageCacheDomain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSGeneralImageCacheDomain.m; sourceTree = "<group>"; };
 		32FCD47A11848ACA00CD4CA2 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 		32FCD47B11848ACA00CD4CA2 /* GTMObjectSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMObjectSingleton.h; sourceTree = "<group>"; };
-		32FCD47C11848ACA00CD4CA2 /* ImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCache.h; sourceTree = "<group>"; };
-		32FCD47D11848ACA00CD4CA2 /* ImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCache.m; sourceTree = "<group>"; };
-		32FCD47E11848ACA00CD4CA2 /* ImageCacheDomain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCacheDomain.h; sourceTree = "<group>"; };
-		32FCD47F11848ACA00CD4CA2 /* ImageCacheFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCacheFactory.h; sourceTree = "<group>"; };
-		32FCD48011848ACA00CD4CA2 /* ImageCacheFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCacheFactory.m; sourceTree = "<group>"; };
+		32FCD47C11848ACA00CD4CA2 /* CSImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSImageCache.h; sourceTree = "<group>"; };
+		32FCD47D11848ACA00CD4CA2 /* CSImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSImageCache.m; sourceTree = "<group>"; };
+		32FCD47E11848ACA00CD4CA2 /* CSImageCacheDomain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSImageCacheDomain.h; sourceTree = "<group>"; };
+		32FCD47F11848ACA00CD4CA2 /* CSImageCacheFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSImageCacheFactory.h; sourceTree = "<group>"; };
+		32FCD48011848ACA00CD4CA2 /* CSImageCacheFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSImageCacheFactory.m; sourceTree = "<group>"; };
 		32FCD5A011848D0400CD4CA2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		32FCD74B1184900600CD4CA2 /* CSImageCacheService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSImageCacheService.h; sourceTree = "<group>"; };
 		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -156,6 +152,7 @@
 		0867D691FE84028FC02AAC07 /* CSImageCacheService */ = {
 			isa = PBXGroup;
 			children = (
+				327114011198B39A0010BAAD /* External */,
 				08FB77AEFE84172EC02AAC07 /* Classes */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				089C1665FE841158C02AAC07 /* Resources */,
@@ -186,21 +183,17 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				32FCD47211848AC900CD4CA2 /* AbstractImageCacheDomain.h */,
-				32FCD47311848AC900CD4CA2 /* AbstractImageCacheDomain.m */,
-				32FCD47411848AC900CD4CA2 /* AvatarImageCacheDomain.h */,
-				32FCD47511848AC900CD4CA2 /* AvatarImageCacheDomain.m */,
-				32FCD47611848ACA00CD4CA2 /* BundleImageCacheDomain.h */,
-				32FCD47711848ACA00CD4CA2 /* BundleImageCacheDomain.m */,
-				32FCD47811848ACA00CD4CA2 /* GeneralImageCacheDomain.h */,
-				32FCD47911848ACA00CD4CA2 /* GeneralImageCacheDomain.m */,
-				32FCD47A11848ACA00CD4CA2 /* GTMDefines.h */,
-				32FCD47B11848ACA00CD4CA2 /* GTMObjectSingleton.h */,
-				32FCD47C11848ACA00CD4CA2 /* ImageCache.h */,
-				32FCD47D11848ACA00CD4CA2 /* ImageCache.m */,
-				32FCD47E11848ACA00CD4CA2 /* ImageCacheDomain.h */,
-				32FCD47F11848ACA00CD4CA2 /* ImageCacheFactory.h */,
-				32FCD48011848ACA00CD4CA2 /* ImageCacheFactory.m */,
+				32FCD47211848AC900CD4CA2 /* CSAbstractImageCacheDomain.h */,
+				32FCD47311848AC900CD4CA2 /* CSAbstractImageCacheDomain.m */,
+				32FCD47611848ACA00CD4CA2 /* CSBundleImageCacheDomain.h */,
+				32FCD47711848ACA00CD4CA2 /* CSBundleImageCacheDomain.m */,
+				32FCD47811848ACA00CD4CA2 /* CSGeneralImageCacheDomain.h */,
+				32FCD47911848ACA00CD4CA2 /* CSGeneralImageCacheDomain.m */,
+				32FCD47C11848ACA00CD4CA2 /* CSImageCache.h */,
+				32FCD47D11848ACA00CD4CA2 /* CSImageCache.m */,
+				32FCD47E11848ACA00CD4CA2 /* CSImageCacheDomain.h */,
+				32FCD47F11848ACA00CD4CA2 /* CSImageCacheFactory.h */,
+				32FCD48011848ACA00CD4CA2 /* CSImageCacheFactory.m */,
 				32FCD74B1184900600CD4CA2 /* CSImageCacheService.h */,
 			);
 			name = Classes;
@@ -225,6 +218,15 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
+		327114011198B39A0010BAAD /* External */ = {
+			isa = PBXGroup;
+			children = (
+				32FCD47A11848ACA00CD4CA2 /* GTMDefines.h */,
+				32FCD47B11848ACA00CD4CA2 /* GTMObjectSingleton.h */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
 		32C88DFF0371C24200C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -240,15 +242,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32FCD48111848ACA00CD4CA2 /* AbstractImageCacheDomain.h in Headers */,
-				32FCD48311848ACA00CD4CA2 /* AvatarImageCacheDomain.h in Headers */,
-				32FCD48511848ACA00CD4CA2 /* BundleImageCacheDomain.h in Headers */,
-				32FCD48711848ACA00CD4CA2 /* GeneralImageCacheDomain.h in Headers */,
+				32FCD48111848ACA00CD4CA2 /* CSAbstractImageCacheDomain.h in Headers */,
+				32FCD48511848ACA00CD4CA2 /* CSBundleImageCacheDomain.h in Headers */,
+				32FCD48711848ACA00CD4CA2 /* CSGeneralImageCacheDomain.h in Headers */,
 				32FCD48911848ACA00CD4CA2 /* GTMDefines.h in Headers */,
 				32FCD48A11848ACA00CD4CA2 /* GTMObjectSingleton.h in Headers */,
-				32FCD48B11848ACA00CD4CA2 /* ImageCache.h in Headers */,
-				32FCD48D11848ACA00CD4CA2 /* ImageCacheDomain.h in Headers */,
-				32FCD48E11848ACA00CD4CA2 /* ImageCacheFactory.h in Headers */,
+				32FCD48B11848ACA00CD4CA2 /* CSImageCache.h in Headers */,
+				32FCD48D11848ACA00CD4CA2 /* CSImageCacheDomain.h in Headers */,
+				32FCD48E11848ACA00CD4CA2 /* CSImageCacheFactory.h in Headers */,
 				32FCD74C1184900600CD4CA2 /* CSImageCacheService.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,15 +258,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32FCD49011848ACA00CD4CA2 /* AbstractImageCacheDomain.h in Headers */,
-				32FCD49211848ACA00CD4CA2 /* AvatarImageCacheDomain.h in Headers */,
-				32FCD49411848ACA00CD4CA2 /* BundleImageCacheDomain.h in Headers */,
-				32FCD49611848ACA00CD4CA2 /* GeneralImageCacheDomain.h in Headers */,
+				32FCD49011848ACA00CD4CA2 /* CSAbstractImageCacheDomain.h in Headers */,
+				32FCD49411848ACA00CD4CA2 /* CSBundleImageCacheDomain.h in Headers */,
+				32FCD49611848ACA00CD4CA2 /* CSGeneralImageCacheDomain.h in Headers */,
 				32FCD49811848ACA00CD4CA2 /* GTMDefines.h in Headers */,
 				32FCD49911848ACA00CD4CA2 /* GTMObjectSingleton.h in Headers */,
-				32FCD49A11848ACA00CD4CA2 /* ImageCache.h in Headers */,
-				32FCD49C11848ACA00CD4CA2 /* ImageCacheDomain.h in Headers */,
-				32FCD49D11848ACA00CD4CA2 /* ImageCacheFactory.h in Headers */,
+				32FCD49A11848ACA00CD4CA2 /* CSImageCache.h in Headers */,
+				32FCD49C11848ACA00CD4CA2 /* CSImageCacheDomain.h in Headers */,
+				32FCD49D11848ACA00CD4CA2 /* CSImageCacheFactory.h in Headers */,
 				32FCD74D1184900600CD4CA2 /* CSImageCacheService.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,12 +275,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				32FCD750118490C100CD4CA2 /* CSImageCacheService.h in Headers */,
-				32FCD74E118490A700CD4CA2 /* BundleImageCacheDomain.h in Headers */,
-				32FCD74F118490A700CD4CA2 /* GeneralImageCacheDomain.h in Headers */,
-				32FCD49F11848ADB00CD4CA2 /* AbstractImageCacheDomain.h in Headers */,
-				32FCD4A311848ADB00CD4CA2 /* ImageCache.h in Headers */,
-				32FCD4A411848ADB00CD4CA2 /* ImageCacheDomain.h in Headers */,
-				32FCD4A511848ADB00CD4CA2 /* ImageCacheFactory.h in Headers */,
+				32FCD74E118490A700CD4CA2 /* CSBundleImageCacheDomain.h in Headers */,
+				32FCD74F118490A700CD4CA2 /* CSGeneralImageCacheDomain.h in Headers */,
+				32FCD49F11848ADB00CD4CA2 /* CSAbstractImageCacheDomain.h in Headers */,
+				32FCD4A311848ADB00CD4CA2 /* CSImageCache.h in Headers */,
+				32FCD4A411848ADB00CD4CA2 /* CSImageCacheDomain.h in Headers */,
+				32FCD4A511848ADB00CD4CA2 /* CSImageCacheFactory.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,11 +411,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32FCD48211848ACA00CD4CA2 /* AbstractImageCacheDomain.m in Sources */,
-				32FCD48611848ACA00CD4CA2 /* BundleImageCacheDomain.m in Sources */,
-				32FCD48811848ACA00CD4CA2 /* GeneralImageCacheDomain.m in Sources */,
-				32FCD48C11848ACA00CD4CA2 /* ImageCache.m in Sources */,
-				32FCD48F11848ACA00CD4CA2 /* ImageCacheFactory.m in Sources */,
+				32FCD48211848ACA00CD4CA2 /* CSAbstractImageCacheDomain.m in Sources */,
+				32FCD48611848ACA00CD4CA2 /* CSBundleImageCacheDomain.m in Sources */,
+				32FCD48811848ACA00CD4CA2 /* CSGeneralImageCacheDomain.m in Sources */,
+				32FCD48C11848ACA00CD4CA2 /* CSImageCache.m in Sources */,
+				32FCD48F11848ACA00CD4CA2 /* CSImageCacheFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,11 +423,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32FCD49111848ACA00CD4CA2 /* AbstractImageCacheDomain.m in Sources */,
-				32FCD49511848ACA00CD4CA2 /* BundleImageCacheDomain.m in Sources */,
-				32FCD49711848ACA00CD4CA2 /* GeneralImageCacheDomain.m in Sources */,
-				32FCD49B11848ACA00CD4CA2 /* ImageCache.m in Sources */,
-				32FCD49E11848ACA00CD4CA2 /* ImageCacheFactory.m in Sources */,
+				32FCD49111848ACA00CD4CA2 /* CSAbstractImageCacheDomain.m in Sources */,
+				32FCD49511848ACA00CD4CA2 /* CSBundleImageCacheDomain.m in Sources */,
+				32FCD49711848ACA00CD4CA2 /* CSGeneralImageCacheDomain.m in Sources */,
+				32FCD49B11848ACA00CD4CA2 /* CSImageCache.m in Sources */,
+				32FCD49E11848ACA00CD4CA2 /* CSImageCacheFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,9 +7,9 @@
  *
  */
 
-#import <CSImageCacheService/AbstractImageCacheDomain.h>
-#import <CSImageCacheService/BundleImageCacheDomain.h>
-#import <CSImageCacheService/GeneralImageCacheDomain.h>
-#import <CSImageCacheService/ImageCache.h>
-#import <CSImageCacheService/ImageCacheDomain.h>
-#import <CSImageCacheService/ImageCacheFactory.h>
+#import <CSImageCacheService/CSAbstractImageCacheDomain.h>
+#import <CSImageCacheService/CSBundleImageCacheDomain.h>
+#import <CSImageCacheService/CSGeneralImageCacheDomain.h>
+#import <CSImageCacheService/CSImageCache.h>
+#import <CSImageCacheService/CSImageCacheDomain.h>
+#import <CSImageCacheService/CSImageCacheFactory.h>
