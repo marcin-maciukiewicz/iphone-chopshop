@@ -695,7 +695,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
 				PRODUCT_NAME = "CSUserInterfaceExtensions-iPhone";
-				SDKROOT = iphoneos3.2;
+				SDKROOT = iphoneos3.0;
 				VALID_ARCHS = "x86_64 armv6 armv7";
 			};
 			name = Debug;
@@ -726,7 +726,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
 				PRODUCT_NAME = "CSUserInterfaceExtensions-iPhoneSimulator";
-				SDKROOT = iphonesimulator3.2;
+				SDKROOT = iphonesimulator3.0;
 				VALID_ARCHS = "x86_64 i386";
 			};
 			name = Debug;

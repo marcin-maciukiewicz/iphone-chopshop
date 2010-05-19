@@ -55,5 +55,6 @@ CG_INLINE Distance DistanceMake(CGFloat top, CGFloat right, CGFloat bottom, CGFl
 -(id)initWithView:(UIView*)view;
 -(void)addSubview:(UIView*)subview;
 -(void)layoutSubviews;
+-(NSArray*)allSubviews;
 
 @end

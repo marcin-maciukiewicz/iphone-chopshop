@@ -540,6 +540,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				SDKROOT = macosx10.6;
 			};
@@ -561,7 +562,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
 				PRODUCT_NAME = "CSImageCacheService-iPhone";
-				SDKROOT = iphoneos3.2;
+				SDKROOT = iphoneos3.0;
 				VALID_ARCHS = "x86_64 armv6 armv7";
 			};
 			name = Debug;
@@ -601,7 +602,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
 				PRODUCT_NAME = "CSImageCacheService-iPhoneSimulator";
-				SDKROOT = iphonesimulator3.2;
+				SDKROOT = iphonesimulator3.0;
 				VALID_ARCHS = "x86_64 i386";
 			};
 			name = Debug;

@@ -33,12 +33,15 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		32EBEDD6113F73F100074B6D /* GeoLocationService.h in Headers */ = {isa = PBXBuildFile; fileRef = 32EBEDD2113F73F000074B6D /* GeoLocationService.h */; };
-		32EBEDD7113F73F100074B6D /* GeoLocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EBEDD3113F73F000074B6D /* GeoLocationService.m */; };
-		32EBEDDA113F740900074B6D /* GeoLocationService.h in Headers */ = {isa = PBXBuildFile; fileRef = 32EBEDD2113F73F000074B6D /* GeoLocationService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		327A0CA0119FFE4900EF1A0B /* CSGeoFakeLocations.h in Headers */ = {isa = PBXBuildFile; fileRef = 320F3A63119BDB8C00E81F25 /* CSGeoFakeLocations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		327A0CA1119FFE5500EF1A0B /* CSGeoFakeLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = 320F3A64119BDB8C00E81F25 /* CSGeoFakeLocations.m */; };
+		327A0CA2119FFE5B00EF1A0B /* CSGeoFakeLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = 320F3A64119BDB8C00E81F25 /* CSGeoFakeLocations.m */; };
+		32EBEDD6113F73F100074B6D /* CSGeoLocationService.h in Headers */ = {isa = PBXBuildFile; fileRef = 32EBEDD2113F73F000074B6D /* CSGeoLocationService.h */; };
+		32EBEDD7113F73F100074B6D /* CSGeoLocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EBEDD3113F73F000074B6D /* CSGeoLocationService.m */; };
+		32EBEDDA113F740900074B6D /* CSGeoLocationService.h in Headers */ = {isa = PBXBuildFile; fileRef = 32EBEDD2113F73F000074B6D /* CSGeoLocationService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32EBEDDF113F745500074B6D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
-		32EBEE22113F787900074B6D /* GeoLocationService.h in Headers */ = {isa = PBXBuildFile; fileRef = 32EBEDD2113F73F000074B6D /* GeoLocationService.h */; };
-		32EBEE24113F787900074B6D /* GeoLocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EBEDD3113F73F000074B6D /* GeoLocationService.m */; };
+		32EBEE22113F787900074B6D /* CSGeoLocationService.h in Headers */ = {isa = PBXBuildFile; fileRef = 32EBEDD2113F73F000074B6D /* CSGeoLocationService.h */; };
+		32EBEE24113F787900074B6D /* CSGeoLocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EBEDD3113F73F000074B6D /* CSGeoLocationService.m */; };
 		32EBEE26113F787900074B6D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
@@ -83,10 +86,12 @@
 		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		320F3A63119BDB8C00E81F25 /* CSGeoFakeLocations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSGeoFakeLocations.h; sourceTree = "<group>"; };
+		320F3A64119BDB8C00E81F25 /* CSGeoFakeLocations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSGeoFakeLocations.m; sourceTree = "<group>"; };
 		32DBCF5E0370ADEE00C91783 /* GeoLocationService_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoLocationService_Prefix.pch; sourceTree = "<group>"; };
 		32EBEDC1113F734A00074B6D /* libGeoLocationService-iPhone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libGeoLocationService-iPhone.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		32EBEDD2113F73F000074B6D /* GeoLocationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoLocationService.h; sourceTree = "<group>"; };
-		32EBEDD3113F73F000074B6D /* GeoLocationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoLocationService.m; sourceTree = "<group>"; };
+		32EBEDD2113F73F000074B6D /* CSGeoLocationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSGeoLocationService.h; sourceTree = "<group>"; };
+		32EBEDD3113F73F000074B6D /* CSGeoLocationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSGeoLocationService.m; sourceTree = "<group>"; };
 		32EBEDD4113F73F000074B6D /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMDefines.h; path = Source/GTMDefines.h; sourceTree = "<group>"; };
 		32EBEDD5113F73F000074B6D /* GTMObjectSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMObjectSingleton.h; path = Source/GTMObjectSingleton.h; sourceTree = "<group>"; };
 		32EBEE2A113F787900074B6D /* libGeoLocationService-iPhoneSimulator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libGeoLocationService-iPhoneSimulator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -195,8 +200,10 @@
 		32EBEDD1113F73F000074B6D /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				32EBEDD2113F73F000074B6D /* GeoLocationService.h */,
-				32EBEDD3113F73F000074B6D /* GeoLocationService.m */,
+				32EBEDD2113F73F000074B6D /* CSGeoLocationService.h */,
+				32EBEDD3113F73F000074B6D /* CSGeoLocationService.m */,
+				320F3A63119BDB8C00E81F25 /* CSGeoFakeLocations.h */,
+				320F3A64119BDB8C00E81F25 /* CSGeoFakeLocations.m */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -208,7 +215,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32EBEDD6113F73F100074B6D /* GeoLocationService.h in Headers */,
+				32EBEDD6113F73F100074B6D /* CSGeoLocationService.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +223,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32EBEE22113F787900074B6D /* GeoLocationService.h in Headers */,
+				32EBEE22113F787900074B6D /* CSGeoLocationService.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +231,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32EBEDDA113F740900074B6D /* GeoLocationService.h in Headers */,
+				327A0CA0119FFE4900EF1A0B /* CSGeoFakeLocations.h in Headers */,
+				32EBEDDA113F740900074B6D /* CSGeoLocationService.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,7 +368,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Set the destroot\nDESTROOT=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}-${CURRENT_PROJECT_VERSION}\"\nmkdir -p \"${DESTROOT}\"\n\n# Per-platform framework destinations\nIPHONE_DEST=\"${DESTROOT}/iPhone Framework\"\nDOC_DEST=\"${DESTROOT}/Documentation\"\n\n# Populate the destroot\nmkdir -p \"${IPHONE_DEST}\"\ntar -C \"${BUILD_DIR}/${CONFIGURATION}-iphone\" -cf - \"GeoLocationService.framework\" | tar -C \"${IPHONE_DEST}\" -xf - \n\nif [ ! -z `which doxygen` ]; then\n\tpushd \"${SRCROOT}\" >/dev/null\n    doxygen\n    if [ $? != 0 ]; then\n        echo \"ERROR: Documentation generation failed\" >/dev/stderr\n        exit 1\n    fi\n\tpopd >/dev/null\n\n\trm -rf \"${DOC_DEST}\"\n    mv Documentation \"${DOC_DEST}\"\nelse\n    echo \"WARNING: Doxygen not available, skipping documentation generation\" >/dev/stderr\nfi\n\n# Create the disk image\nrm -f \"${DESTROOT}.dmg\"\nhdiutil create -srcfolder \"${DESTROOT}\" \"${DESTROOT}.dmg\"";
+			shellScript = "# Set the destroot\nDESTROOT=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}-${CURRENT_PROJECT_VERSION}\"\nmkdir -p \"${DESTROOT}\"\n\n# Per-platform framework destinations\nIPHONE_DEST=\"${DESTROOT}/iPhone Framework\"\nDOC_DEST=\"${DESTROOT}/Documentation\"\n\n# Populate the destroot\nmkdir -p \"${IPHONE_DEST}\"\ntar -C \"${BUILD_DIR}/${CONFIGURATION}-iphone\" -cf - \"GeoLocationService.framework\" | tar -C \"${IPHONE_DEST}\" -xf - \n\nif [ ! -z `which doxygenA` ]; then\n\tpushd \"${SRCROOT}\" >/dev/null\n    doxygen\n    if [ $? != 0 ]; then\n        echo \"ERROR: Documentation generation failed\" >/dev/stderr\n        exit 1\n    fi\n\tpopd >/dev/null\n\n\trm -rf \"${DOC_DEST}\"\n    mv Documentation \"${DOC_DEST}\"\nelse\n    echo \"WARNING: Doxygen not available, skipping documentation generation\" >/dev/stderr\nfi\n\n# Create the disk image\nrm -f \"${DESTROOT}.dmg\"\nhdiutil create -srcfolder \"${DESTROOT}\" \"${DESTROOT}.dmg\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -369,7 +377,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32EBEDD7113F73F100074B6D /* GeoLocationService.m in Sources */,
+				327A0CA1119FFE5500EF1A0B /* CSGeoFakeLocations.m in Sources */,
+				32EBEDD7113F73F100074B6D /* CSGeoLocationService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,7 +386,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32EBEE24113F787900074B6D /* GeoLocationService.m in Sources */,
+				327A0CA2119FFE5B00EF1A0B /* CSGeoFakeLocations.m in Sources */,
+				32EBEE24113F787900074B6D /* CSGeoLocationService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,11 +552,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				PREBINDING = NO;
 				PRODUCT_NAME = "GeoLocationService-iPhone";
+				SDKROOT = iphoneos3.2;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -555,7 +567,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(NATIVE_ARCH)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				EXPORTED_SYMBOLS_FILE = "";
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -575,11 +587,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				PREBINDING = NO;
 				PRODUCT_NAME = "GeoLocationService-iPhone";
+				SDKROOT = iphonesimulator3.2;
 				ZERO_LINK = NO;
 			};
 			name = Release;

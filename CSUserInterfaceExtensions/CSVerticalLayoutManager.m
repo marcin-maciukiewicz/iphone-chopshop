@@ -113,12 +113,13 @@
 
 -(CGSize)getPreferredSize:(UIView*)aView withMaxSize:(CGSize)maxSize {
 	CGSize result;
-	BOOL conformsToTheProtocol=[aView conformsToProtocol:NSProtocolFromString(@"CSLayoutableWidget")];
-	if(conformsToTheProtocol){
+//	BOOL conformsToTheProtocol=[aView conformsToProtocol:NSProtocolFromString(@"CSLayoutableWidget")];
+	BOOL respondsToSelector=[aView respondsToSelector:@selector(preferredSize)];
+	if(respondsToSelector){
 		aView.frame=CGRectMake(0, 0, maxSize.width, maxSize.height);
 		id<CSLayoutableWidget> layoutableWidget=(id<CSLayoutableWidget>)aView;
 		result=[layoutableWidget preferredSize];
-	}else {
+	} else {
 		result=aView.frame.size;
 	}
 	return result;
@@ -226,5 +227,9 @@
 	}
 }
 
+-(NSArray*)allSubviews {
+	NSArray *result=[NSArray arrayWithArray:self._subviews];
+	return result;
+}
 
 @end
